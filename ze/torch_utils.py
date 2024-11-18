@@ -1,8 +1,7 @@
 import torch
 from torchsummary import summary
 # import torchinfo
-##########fjh################
-##########fjh################
+
 def set_cuda():
     # CUDA support 
     if torch.cuda.is_available():
